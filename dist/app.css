@@ -66,3 +66,54 @@
 #container .content-nav .navbar .donate-button:hover {
   background-color: #000;
 }
+#container .content-jumbotron {
+  width: 100%;
+  padding: 0 30px;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#container .content-jumbotron .title {
+  font-size: 52px;
+  text-align: center;
+  margin-bottom: 14px;
+}
+#container .content-jumbotron .subtitle {
+  font-size: 20px;
+  text-align: center;
+}
+#container .content-jumbotron .buttons-jumbotron {
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#container .content-jumbotron .buttons-jumbotron .button-mission {
+  margin: 0 15px;
+  padding: 13px 29px;
+  background: none;
+  color: #fff;
+  font-size: 14px;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+#container .content-jumbotron .buttons-jumbotron .button-mission:hover {
+  color: #fec96b;
+  border: 1px solid #fec96b;
+}
+#container .content-jumbotron .buttons-jumbotron .button-donateNow {
+  margin: 0 15px;
+  padding: 13px 29px;
+  background: none;
+  color: #fec96b;
+  font-size: 14px;
+  border: 1px solid #fec96b;
+  cursor: pointer;
+}
+#container .content-jumbotron .buttons-jumbotron .button-donateNow:hover {
+  color: #fff;
+  border: 1px solid #fff;
+}
