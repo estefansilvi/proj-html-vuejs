@@ -8,10 +8,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 #container {
-  width: 1920px;
+  width: 1900px;
   height: 100vh;
 
-  .content {
+  .contentOne {
     width: 100%;
     height: 100%;
     background-image: url($bg-header-image);
@@ -36,6 +36,7 @@
 
         .img-logo {
           height: 70px;
+          cursor: $pointer;
         }
       }
 
@@ -49,7 +50,6 @@
           font-size: 15px;
           padding-right: 70px;
           color: $white;
-          cursor: $pointer;
 
           &:hover {
             color: $yellow
@@ -57,6 +57,10 @@
 
           .home-text {
             color: $yellow;
+          }
+
+          .text{
+            cursor: $pointer;
           }
         }
 
@@ -136,6 +140,66 @@
       }
     }
 
+  }
+
+  .contentTwo {
+    width: 100%;
+    background-color: $bg-color-main;
+    display: flex;
+
+    &-every-coment-counts {
+      width: 66%;
+      padding: 100px 120px;
+      display: flex;
+      flex-direction: column;
+
+      .moment-counts {
+        width: 100%;
+        color: $black;
+
+        .moment-title {
+          font-size: 36px;
+          padding-bottom: 30px;
+        }
+      }
+
+      .line-separator {
+        width: 14%;
+        border: 1px solid $yellow;
+        margin-bottom: 20px;
+      }
+
+      .moment-text {
+        font-size: 16px;
+        color: $hex-color;
+        font-family: 'Raleway', sans-serif;
+        line-height: 36px;
+
+        .testo {
+          margin-bottom: 20px;
+        }
+      }
+
+      .moment-button {
+        padding: 13px 29px;
+        color: $white;
+        background-color: $yellow;
+        border: none;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        cursor: $pointer;
+
+        &:hover {
+          background-color: $black;
+        }
+      }
+
+    }
+
+    &-numbers-data {
+      width: 34%;
+      background-image:url( $bg-main-number-image);
+    }
   }
 
 }
