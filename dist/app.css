@@ -5,24 +5,15 @@
   font-family: "Montserrat", sans-serif;
 }
 
-#container {
-  width: 1900px;
-  height: 100vh;
-}
 #container .contentOne {
-  width: 100%;
-  height: 100%;
   background-image: url("../img/home-page-slider.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 5;
 }
 #container .contentOne-nav {
-  width: 100%;
-  height: 150px;
   margin: 0 auto;
-  padding: 0 100px;
+  padding: 20px 100px;
   display: flex;
   align-items: center;
 }
@@ -70,22 +61,17 @@
   background-color: #000;
 }
 #container .contentOne-jumbotron {
-  width: 100%;
-  padding: 0 30px;
+  padding: 160px 30px 250px;
   color: #fff;
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 #container .contentOne-jumbotron .title {
-  font-size: 52px;
+  font-size: 44px;
   text-align: center;
   margin-bottom: 14px;
 }
 #container .contentOne-jumbotron .subtitle {
-  font-size: 20px;
+  font-size: 17px;
   text-align: center;
 }
 #container .contentOne-jumbotron .buttons-jumbotron {
@@ -127,7 +113,7 @@
 }
 #container .contentTwo-every-coment-counts {
   width: 66%;
-  padding: 100px 120px;
+  padding: 70px 120px;
   display: flex;
   flex-direction: column;
 }
@@ -136,8 +122,8 @@
   color: #000;
 }
 #container .contentTwo-every-coment-counts .moment-counts .moment-title {
-  font-size: 36px;
-  padding-bottom: 30px;
+  font-size: 26px;
+  padding-bottom: 15px;
 }
 #container .contentTwo-every-coment-counts .line-separator {
   width: 14%;
@@ -145,10 +131,10 @@
   margin-bottom: 20px;
 }
 #container .contentTwo-every-coment-counts .moment-text {
-  font-size: 16px;
+  font-size: 10px;
   color: #5c6668;
   font-family: "Raleway", sans-serif;
-  line-height: 36px;
+  line-height: 30px;
 }
 #container .contentTwo-every-coment-counts .moment-text .testo {
   margin-bottom: 20px;
@@ -168,4 +154,29 @@
 #container .contentTwo-numbers-data {
   width: 34%;
   background-image: url("../img/home-content-bg-1.jpg");
+  padding: 50px 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#container .contentTwo-numbers-data .numbers-box {
+  padding: 20px;
+  font-size: 55px;
+  margin-bottom: 5px;
+}
+#container .contentTwo-numbers-data .numbers-box .box-percentage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container .contentTwo-numbers-data .numbers-box .box-percentage i {
+  margin-right: 10px;
+}
+#container .contentTwo-numbers-data .numbers-box .numbers-title {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
