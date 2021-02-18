@@ -109,37 +109,39 @@
 #container .contentTwo {
   width: 100%;
   background-color: #fff;
+}
+#container .contentTwo-first {
   display: flex;
 }
-#container .contentTwo-every-coment-counts {
+#container .contentTwo-first .every-moment-counts {
   width: 66%;
-  padding: 70px 120px;
+  padding: 80px 100px;
   display: flex;
   flex-direction: column;
 }
-#container .contentTwo-every-coment-counts .moment-counts {
+#container .contentTwo-first .every-moment-counts .moment-counts {
   width: 100%;
   color: #000;
 }
-#container .contentTwo-every-coment-counts .moment-counts .moment-title {
+#container .contentTwo-first .every-moment-counts .moment-counts .moment-title {
   font-size: 26px;
   padding-bottom: 15px;
 }
-#container .contentTwo-every-coment-counts .line-separator {
-  width: 14%;
+#container .contentTwo-first .every-moment-counts .line-separator {
+  width: 22%;
   border: 1px solid #fec96b;
   margin-bottom: 20px;
 }
-#container .contentTwo-every-coment-counts .moment-text {
+#container .contentTwo-first .every-moment-counts .moment-text {
   font-size: 10px;
   color: #5c6668;
   font-family: "Raleway", sans-serif;
   line-height: 30px;
 }
-#container .contentTwo-every-coment-counts .moment-text .testo {
+#container .contentTwo-first .every-moment-counts .moment-text .testo {
   margin-bottom: 20px;
 }
-#container .contentTwo-every-coment-counts .moment-button {
+#container .contentTwo-first .every-moment-counts .moment-button {
   padding: 13px 29px;
   color: #fff;
   background-color: #fec96b;
@@ -148,10 +150,10 @@
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
 }
-#container .contentTwo-every-coment-counts .moment-button:hover {
+#container .contentTwo-first .every-moment-counts .moment-button:hover {
   background-color: #000;
 }
-#container .contentTwo-numbers-data {
+#container .contentTwo-first .numbers-data {
   width: 34%;
   background-image: url("../img/home-content-bg-1.jpg");
   padding: 50px 0;
@@ -161,22 +163,93 @@
   justify-content: center;
   align-items: center;
 }
-#container .contentTwo-numbers-data .numbers-box {
+#container .contentTwo-first .numbers-data .numbers-box {
   padding: 20px;
   font-size: 55px;
   margin-bottom: 5px;
 }
-#container .contentTwo-numbers-data .numbers-box .box-percentage {
+#container .contentTwo-first .numbers-data .numbers-box .box-percentage {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#container .contentTwo-numbers-data .numbers-box .box-percentage i {
+#container .contentTwo-first .numbers-data .numbers-box .box-percentage i {
   margin-right: 10px;
 }
-#container .contentTwo-numbers-data .numbers-box .numbers-title {
+#container .contentTwo-first .numbers-data .numbers-box .numbers-title {
   font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#container .contentTwo-second {
+  background-image: url("../img/home-content-bg-2.jpg");
+  padding: 150px 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#container .contentTwo-second .ourValues-box-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+#container .contentTwo-second .ourValues-box-text .text-title {
+  font-size: 25px;
+}
+#container .contentTwo-second .ourValues-box-text .line-text {
+  width: 20%;
+  padding: 20px 15px;
+}
+#container .contentTwo-second .ourValues-box-text .line-text .line {
+  width: 100%;
+  border: 1px solid #fec96b;
+}
+#container .contentTwo-second .ourValues-box-text .text-subtitle {
+  font-size: 21px;
+  padding: 15px 0;
+}
+#container .contentTwo-second .learn-more {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#container .contentTwo-second .learn-more .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 10px;
+}
+#container .contentTwo-second .learn-more .box-icon {
+  color: #fec96b;
+  font-size: 50px;
+}
+#container .contentTwo-second .learn-more .box-title {
+  font-size: 20px;
+  padding: 10px 0;
+}
+#container .contentTwo-second .learn-more .box-paragraph {
+  font-size: 10px;
+  padding: 15px 0;
+  line-height: 20px;
+  text-align: center;
+}
+#container .contentTwo-second .learn-more .box-button {
+  padding: 13px 29px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #fec96b;
+  border: none;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+#container .contentTwo-second .learn-more .box-button:hover {
+  background-color: #000;
 }

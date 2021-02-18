@@ -50,6 +50,7 @@
 
           .home-text {
             color: $yellow;
+
           }
 
           .text{
@@ -134,89 +135,178 @@
   .contentTwo {
     width: 100%;
     background-color: $bg-color-main;
-    display: flex;
 
-    &-every-coment-counts {
-      width: 66%;
-      padding: 70px 120px;
+    &-first {
       display: flex;
-      flex-direction: column;
 
-      .moment-counts {
-        width: 100%;
-        color: $black;
+      .every-moment-counts {
+        width: 66%;
+        padding: 80px 100px;
+        display: flex;
+        flex-direction: column;
 
-        .moment-title {
-          font-size: 26px;
-          padding-bottom: 15px;
-        }
-      }
+        .moment-counts {
+          width: 100%;
+          color: $black;
 
-      .line-separator {
-        width: 14%;
-        border: 1px solid $yellow;
-        margin-bottom: 20px;
-      }
-
-      .moment-text {
-        font-size: 10px;
-        color: $hex-color;
-        font-family: 'Raleway', sans-serif;
-        line-height: 30px;
-
-        .testo {
-          margin-bottom: 20px;
-        }
-      }
-
-      .moment-button {
-        padding: 13px 29px;
-        color: $white;
-        background-color: $yellow;
-        border: none;
-        font-size: 14px;
-        font-family: 'Montserrat', sans-serif;
-        cursor: $pointer;
-
-        &:hover {
-          background-color: $black;
-        }
-      }
-
-    }
-
-    &-numbers-data {
-      width: 34%;
-      background-image:url( $bg-main-number-image);
-      padding: 50px 0;
-      color: $white;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-
-      .numbers-box {
-        padding: 20px;
-        font-size: 55px;
-        margin-bottom: 5px;
-
-        .box-percentage {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-          i {
-            margin-right: 10px;
+          .moment-title {
+            font-size: 26px;
+            padding-bottom: 15px;
           }
         }
-        .numbers-title {
-          font-size: 20px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+
+        .line-separator {
+          width: 22%;
+          border: 1px solid $yellow;
+          margin-bottom: 20px;
+        }
+
+        .moment-text {
+          font-size: 10px;
+          color: $hex-color;
+          font-family: 'Raleway', sans-serif;
+          line-height: 30px;
+
+          .testo {
+            margin-bottom: 20px;
+          }
+        }
+
+        .moment-button {
+          padding: 13px 29px;
+          color: $white;
+          background-color: $yellow;
+          border: none;
+          font-size: 14px;
+          font-family: 'Montserrat', sans-serif;
+          cursor: $pointer;
+
+          &:hover {
+            background-color: $black;
+          }
+        }
+
+      }
+
+      .numbers-data {
+        width: 34%;
+        background-image:url( $bg-main-number-image);
+        padding: 50px 0;
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .numbers-box {
+          padding: 20px;
+          font-size: 55px;
+          margin-bottom: 5px;
+
+          .box-percentage {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            i {
+              margin-right: 10px;
+            }
+          }
+          .numbers-title {
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
         }
       }
     }
+
+    &-second {
+      background-image: url($bg-main-ourValues-image);
+      padding: 150px 100px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .ourValues-box-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $white;
+
+        .text-title {
+          font-size: 25px;
+        }
+
+        .line-text {
+          width: 20%;
+          padding: 20px 15px;
+
+          .line {
+            width: 100%;
+            border: 1px solid $yellow;
+          }
+        }
+
+        .text-subtitle {
+          font-size: 21px;
+          padding: 15px 0;
+        }
+      }
+
+      .learn-more {
+        margin-top: 55px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .box {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          color: $white;
+          padding: 10px;
+
+          &-icon {
+            color: $yellow;
+            font-size: 50px;
+          }
+
+          &-title {
+            font-size: 20px;
+            padding: 10px 0;
+          }
+
+          &-paragraph {
+            font-size: 10px;
+            padding: 15px 0;
+            line-height: 20px;
+            text-align: center;
+          }
+
+          &-button {
+            padding: 13px 29px;
+            margin-top: 20px;
+            color: $white;
+            background-color: $yellow;
+            border: none;
+            font-size: 14px;
+            font-family: 'Montserrat', sans-serif;
+            cursor: $pointer;
+
+            &:hover {
+              background-color: $black;
+            }
+          }
+        }
+      }
+
+    }
   }
+
 
 }
