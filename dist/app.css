@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+#container {
+  width: 1920px;
+  height: 100vh;
+}
+#container .content {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/home-page-slider.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 5;
+}
+#container .content-nav {
+  width: 100%;
+  height: 150px;
+  margin: 0 auto;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+}
+#container .content-nav .logo {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#container .content-nav .logo .img-logo {
+  height: 70px;
+}
+#container .content-nav .navbar {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#container .content-nav .navbar .menu-text {
+  font-size: 15px;
+  padding-right: 70px;
+  color: #fff;
+  cursor: pointer;
+}
+#container .content-nav .navbar .menu-text:hover {
+  color: #fec96b;
+}
+#container .content-nav .navbar .menu-text .home-text {
+  color: #fec96b;
+}
+#container .content-nav .navbar .donate-button {
+  background-color: #fec96b;
+  color: #fff;
+  border: none;
+  padding: 13px 29px;
+  line-height: 17px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+#container .content-nav .navbar .donate-button:hover {
+  background-color: #000;
+}
