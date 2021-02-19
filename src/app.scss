@@ -163,7 +163,7 @@
 
         .moment-text {
           font-size: 10px;
-          color: $hex-color;
+          color: $light-black;
           font-family: 'Raleway', sans-serif;
           line-height: 30px;
 
@@ -349,6 +349,24 @@
           padding: 10px;
         }
       }
+
+    }
+
+    .button-causes {
+      background-color: $burnt-sienna;
+      padding: 70px;
+      display: flex;
+      justify-content: center;
+      color: $white;
+      cursor: $pointer;
+
+      &:hover {
+        background-color: $blue-marine;
+      }
+      .text-button-couses {
+        font-size: 20px;
+      }
+
     }
   }
 

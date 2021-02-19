@@ -289,3 +289,17 @@
   width: 100%;
   padding: 10px;
 }
+#container .contentTwo .button-causes {
+  background-color: #ed6864;
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+}
+#container .contentTwo .button-causes:hover {
+  background-color: #408292;
+}
+#container .contentTwo .button-causes .text-button-couses {
+  font-size: 20px;
+}
