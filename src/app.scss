@@ -282,7 +282,7 @@
           }
 
           &-paragraph {
-            font-size: 10px;
+            font-size: 14px;
             padding: 15px 0;
             line-height: 20px;
             text-align: center;
@@ -391,6 +391,7 @@
         justify-content: center;
         align-items: center;
         color: $light-black;
+        padding: 15px 0 40px 0;
 
         .text-title {
           font-size: 25px;
@@ -463,6 +464,7 @@
 
             .article {
               display: flex;
+              margin-bottom: 15px;
 
               .article-image {
                 width: 25%;
@@ -470,13 +472,14 @@
                 justify-content: center;
                 align-items: center;
 
+
                 .image {
-                  width: 99%;
+                  width: 97%;
                   cursor: $pointer;
 
                   &:hover {
-                    box-shadow: 0px 4px 12px 3px grey;
                     width: 99%;
+                    box-shadow: 0px 4px 12px 3px grey;
 
                   }
                 }
@@ -519,6 +522,85 @@
             }
             .text-button-couses {
               font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    &-fifths {
+      background-image: url($bg-main-changeLife-image);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .container-changeLife {
+        padding: 150px 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .change-life{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          color: $white;
+          padding: 0 150px;
+
+          .text-title {
+            font-size: 25px;
+          }
+
+          .line-text {
+            width: 20%;
+            padding: 20px 15px;
+
+            .line {
+              width: 100%;
+              border: 1px solid $yellow;
+            }
+          }
+
+          .text-subtitle {
+            font-size: 22px;
+            padding: 15px 140px;
+          }
+        }
+
+        .buttons-change-life {
+          height: 85px;
+          display: flex;
+          justify-content: center;
+          align-items:flex-start;
+
+          .button-volunteer {
+            margin: 0 15px;
+            padding: 13px 29px;
+            background: none;
+            color: $white;
+            font-size: 14px;
+            border: 1px solid $white;
+            cursor: $pointer;
+
+            &:hover {
+              color: $yellow;
+              border: 1px solid $yellow;
+            }
+          }
+
+          .button-donateNow {
+            margin: 0 15px;
+            padding: 13px 29px;
+            background: none;
+            color: $yellow;
+            font-size: 14px;
+            border: 1px solid $yellow;
+            cursor: $pointer;
+
+            &:hover {
+              color: $white;
+              border: 1px solid $white;
             }
           }
         }

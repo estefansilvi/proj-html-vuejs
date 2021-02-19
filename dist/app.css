@@ -235,7 +235,7 @@
   padding: 10px 0;
 }
 #container .contentTwo-second .learn-more .box-paragraph {
-  font-size: 10px;
+  font-size: 14px;
   padding: 15px 0;
   line-height: 20px;
   text-align: center;
@@ -321,6 +321,7 @@
   justify-content: center;
   align-items: center;
   color: #5c6668;
+  padding: 15px 0 40px 0;
 }
 #container .contentTwo-fourth .latest-articles .text-title {
   font-size: 25px;
@@ -376,6 +377,7 @@
 }
 #container .contentTwo-fourth .container-articles .articles-box .secondary-articles .article {
   display: flex;
+  margin-bottom: 15px;
 }
 #container .contentTwo-fourth .container-articles .articles-box .secondary-articles .article .article-image {
   width: 25%;
@@ -384,12 +386,12 @@
   align-items: center;
 }
 #container .contentTwo-fourth .container-articles .articles-box .secondary-articles .article .article-image .image {
-  width: 99%;
+  width: 97%;
   cursor: pointer;
 }
 #container .contentTwo-fourth .container-articles .articles-box .secondary-articles .article .article-image .image:hover {
-  box-shadow: 0px 4px 12px 3px grey;
   width: 99%;
+  box-shadow: 0px 4px 12px 3px grey;
 }
 #container .contentTwo-fourth .container-articles .articles-box .secondary-articles .article .article-text {
   width: 75%;
@@ -421,4 +423,71 @@
 }
 #container .contentTwo-fourth .container-articles .button-articles .button .text-button-couses {
   font-size: 20px;
+}
+#container .contentTwo-fifths {
+  background-image: url("../img/home-footer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#container .contentTwo-fifths .container-changeLife {
+  padding: 150px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#container .contentTwo-fifths .container-changeLife .change-life {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 0 150px;
+}
+#container .contentTwo-fifths .container-changeLife .change-life .text-title {
+  font-size: 25px;
+}
+#container .contentTwo-fifths .container-changeLife .change-life .line-text {
+  width: 20%;
+  padding: 20px 15px;
+}
+#container .contentTwo-fifths .container-changeLife .change-life .line-text .line {
+  width: 100%;
+  border: 1px solid #fec96b;
+}
+#container .contentTwo-fifths .container-changeLife .change-life .text-subtitle {
+  font-size: 22px;
+  padding: 15px 140px;
+}
+#container .contentTwo-fifths .container-changeLife .buttons-change-life {
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+#container .contentTwo-fifths .container-changeLife .buttons-change-life .button-volunteer {
+  margin: 0 15px;
+  padding: 13px 29px;
+  background: none;
+  color: #fff;
+  font-size: 14px;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+#container .contentTwo-fifths .container-changeLife .buttons-change-life .button-volunteer:hover {
+  color: #fec96b;
+  border: 1px solid #fec96b;
+}
+#container .contentTwo-fifths .container-changeLife .buttons-change-life .button-donateNow {
+  margin: 0 15px;
+  padding: 13px 29px;
+  background: none;
+  color: #fec96b;
+  font-size: 14px;
+  border: 1px solid #fec96b;
+  cursor: pointer;
+}
+#container .contentTwo-fifths .container-changeLife .buttons-change-life .button-donateNow:hover {
+  color: #fff;
+  border: 1px solid #fff;
 }
