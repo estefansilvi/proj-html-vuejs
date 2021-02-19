@@ -253,3 +253,39 @@
 #container .contentTwo-second .learn-more .box-button:hover {
   background-color: #000;
 }
+#container .contentTwo-third {
+  padding: 50px 100px;
+}
+#container .contentTwo-third .recent-causes-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+#container .contentTwo-third .recent-causes-box .text-title {
+  font-size: 25px;
+}
+#container .contentTwo-third .recent-causes-box .line-text {
+  width: 20%;
+  padding: 20px 15px;
+}
+#container .contentTwo-third .recent-causes-box .line-text .line {
+  width: 100%;
+  border: 1px solid #fec96b;
+}
+#container .contentTwo-third .recent-causes-box .text-subtitle {
+  font-size: 21px;
+  padding: 15px 0;
+}
+#container .contentTwo-third .images-box {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#container .contentTwo-third .images-box .image {
+  width: 100%;
+  padding: 10px;
+}

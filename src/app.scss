@@ -306,6 +306,50 @@
       }
 
     }
+
+    &-third {
+      padding: 50px 100px;
+
+      .recent-causes-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $black;
+
+        .text-title {
+          font-size: 25px;
+        }
+
+        .line-text {
+          width: 20%;
+          padding: 20px 15px;
+
+          .line {
+            width: 100%;
+            border: 1px solid $yellow;
+          }
+        }
+
+        .text-subtitle {
+          font-size: 21px;
+          padding: 15px 0;
+        }
+      }
+
+      .images-box {
+        margin-top: 55px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .image {
+          width: 100%;
+          padding: 10px;
+        }
+      }
+    }
   }
 
 
