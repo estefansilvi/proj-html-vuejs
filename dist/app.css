@@ -253,43 +253,52 @@
 #container .contentTwo-second .learn-more .box-button:hover {
   background-color: #000;
 }
-#container .contentTwo-third {
+#container .contentTwo-third .container-causes {
   padding: 50px 100px;
 }
-#container .contentTwo-third .recent-causes-box {
+#container .contentTwo-third .container-causes .recent-causes {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#container .contentTwo-third .container-causes .recent-causes .text-title {
+  font-size: 25px;
   color: #000;
 }
-#container .contentTwo-third .recent-causes-box .text-title {
-  font-size: 25px;
-}
-#container .contentTwo-third .recent-causes-box .line-text {
+#container .contentTwo-third .container-causes .recent-causes .line-text {
   width: 20%;
   padding: 20px 15px;
 }
-#container .contentTwo-third .recent-causes-box .line-text .line {
+#container .contentTwo-third .container-causes .recent-causes .line-text .line {
   width: 100%;
   border: 1px solid #fec96b;
 }
-#container .contentTwo-third .recent-causes-box .text-subtitle {
+#container .contentTwo-third .container-causes .recent-causes .text-subtitle {
   font-size: 21px;
   padding: 15px 0;
+  color: #5c6668;
 }
-#container .contentTwo-third .images-box {
+#container .contentTwo-third .container-causes .images-box {
   margin-top: 55px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-#container .contentTwo-third .images-box .image {
-  width: 100%;
+#container .contentTwo-third .container-causes .images-box .card {
+  cursor: pointer;
   padding: 10px;
 }
-#container .contentTwo .button-causes {
+#container .contentTwo-third .container-causes .images-box .card .image {
+  width: 100%;
+  box-shadow: 6px 5px 15px -3px grey;
+}
+#container .contentTwo-third .container-causes .images-box .card .image-text {
+  display: none;
+  color: #fff;
+}
+#container .contentTwo-third .button-causes {
   background-color: #ed6864;
   padding: 70px;
   display: flex;
@@ -297,9 +306,119 @@
   color: #fff;
   cursor: pointer;
 }
-#container .contentTwo .button-causes:hover {
+#container .contentTwo-third .button-causes:hover {
   background-color: #408292;
 }
-#container .contentTwo .button-causes .text-button-couses {
+#container .contentTwo-third .button-causes .text-button-couses {
+  font-size: 20px;
+}
+#container .contentTwo-fourth {
+  padding: 50px 130px;
+}
+#container .contentTwo-fourth .latest-articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #5c6668;
+}
+#container .contentTwo-fourth .latest-articles .text-title {
+  font-size: 25px;
+}
+#container .contentTwo-fourth .latest-articles .line-text {
+  width: 20%;
+  padding: 20px 15px;
+}
+#container .contentTwo-fourth .latest-articles .line-text .line {
+  width: 100%;
+  border: 1px solid #fec96b;
+}
+#container .contentTwo-fourth .latest-articles .text-subtitle {
+  font-size: 22px;
+  padding: 15px 0;
+}
+#container .contentTwo-fourth .container-articles .articles-box {
+  display: flex;
+  justify-content: space-between;
+}
+#container .contentTwo-fourth .container-articles .articles-box .principal-article {
+  width: 50%;
+  padding: 15px;
+}
+#container .contentTwo-fourth .container-articles .articles-box .principal-article .container-principal-article {
+  border: 1px solid lightgrey;
+  box-shadow: 0px 0px 8px -5px grey;
+}
+#container .contentTwo-fourth .container-articles .articles-box .principal-article .container-principal-article .principal-image .image {
+  width: 100%;
+}
+#container .contentTwo-fourth .container-articles .articles-box .principal-article .container-principal-article .principal-text {
+  padding: 15px;
+  border: 0 1px 1px 1px solid lightgrey;
+}
+#container .contentTwo-fourth .container-articles .articles-box .principal-article .container-principal-article .principal-text .text-title {
+  font-size: 20px;
+  color: #fec96b;
+  margin: 10px 0;
+}
+#container .contentTwo-fourth .container-articles .articles-box .principal-article .container-principal-article .principal-text .text-paragraph {
+  font-size: 15px;
+  color: #5c6668;
+  line-height: 25px;
+}
+#container .contentTwo-fourth .container-articles .articles-box .secondary-articles {
+  width: 50%;
+  padding: 15px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#container .contentTwo-fourth .container-articles .articles-box .secondary-articles .article {
+  display: flex;
+}
+#container .contentTwo-fourth .container-articles .articles-box .secondary-articles .article .article-image {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container .contentTwo-fourth .container-articles .articles-box .secondary-articles .article .article-image .image {
+  width: 99%;
+  cursor: pointer;
+}
+#container .contentTwo-fourth .container-articles .articles-box .secondary-articles .article .article-image .image:hover {
+  box-shadow: 0px 4px 12px 3px grey;
+  width: 99%;
+}
+#container .contentTwo-fourth .container-articles .articles-box .secondary-articles .article .article-text {
+  width: 75%;
+  padding: 5px 15px;
+}
+#container .contentTwo-fourth .container-articles .articles-box .secondary-articles .article .article-text .text-title {
+  font-size: 25px;
+  color: #fec96b;
+  margin-bottom: 10px;
+}
+#container .contentTwo-fourth .container-articles .articles-box .secondary-articles .article .article-text .text-paragraph {
+  font-size: 15px;
+  line-height: 30px;
+}
+#container .contentTwo-fourth .container-articles .button-articles {
+  padding: 0 15px;
+  margin-top: 50px;
+}
+#container .contentTwo-fourth .container-articles .button-articles .button {
+  background-color: #ed6864;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+}
+#container .contentTwo-fourth .container-articles .button-articles .button:hover {
+  background-color: #408292;
+}
+#container .contentTwo-fourth .container-articles .button-articles .button .text-button-couses {
   font-size: 20px;
 }

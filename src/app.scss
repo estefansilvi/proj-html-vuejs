@@ -308,14 +308,89 @@
     }
 
     &-third {
-      padding: 50px 100px;
 
-      .recent-causes-box {
+      .container-causes {
+        padding: 50px 100px;
+
+        .recent-causes {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .text-title {
+            font-size: 25px;
+            color: $black;
+          }
+
+          .line-text {
+            width: 20%;
+            padding: 20px 15px;
+
+            .line {
+              width: 100%;
+              border: 1px solid $yellow;
+            }
+          }
+
+          .text-subtitle {
+            font-size: 21px;
+            padding: 15px 0;
+            color: $light-black;
+          }
+        }
+
+        .images-box {
+          margin-top: 55px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+
+          .card {
+            cursor: $pointer;
+            padding: 10px;
+
+
+            .image {
+              width: 100%;
+              box-shadow: 6px 5px 15px -3px grey;
+            }
+
+            .image-text {
+              display: none;
+              color: $white;
+            }
+          }
+        }
+      }
+
+      .button-causes {
+        background-color: $burnt-sienna;
+        padding: 70px;
+        display: flex;
+        justify-content: center;
+        color: $white;
+        cursor: $pointer;
+
+        &:hover {
+          background-color: $blue-marine;
+        }
+        .text-button-couses {
+          font-size: 20px;
+        }
+      }
+    }
+
+    &-fourth {
+      padding: 50px 130px;
+
+      .latest-articles {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        color: $black;
+        color: $light-black;
 
         .text-title {
           font-size: 25px;
@@ -332,42 +407,124 @@
         }
 
         .text-subtitle {
-          font-size: 21px;
+          font-size: 22px;
           padding: 15px 0;
         }
       }
 
-      .images-box {
-        margin-top: 55px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+      .container-articles {
 
-        .image {
-          width: 100%;
-          padding: 10px;
+        .articles-box {
+          display: flex;
+          justify-content: space-between;
+
+          .principal-article {
+            width: 50%;
+            padding: 15px;
+
+            .container-principal-article{
+              border: 1px solid lightgrey;
+              box-shadow: 0px 0px 8px -5px grey;
+
+              .principal-image {
+
+                .image {
+                  width: 100%;
+                }
+              }
+
+              .principal-text {
+                padding: 15px;
+                border: 0 1px 1px 1px solid lightgrey;
+
+                .text-title {
+                  font-size: 20px;
+                  color: $yellow;
+                  margin: 10px 0;
+                }
+                .text-paragraph {
+                  font-size: 15px;
+                  color: $light-black;
+                  line-height: 25px;
+                }
+              }
+            }
+
+          }
+
+          .secondary-articles{
+            width: 50%;
+            padding: 15px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+
+            .article {
+              display: flex;
+
+              .article-image {
+                width: 25%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .image {
+                  width: 99%;
+                  cursor: $pointer;
+
+                  &:hover {
+                    box-shadow: 0px 4px 12px 3px grey;
+                    width: 99%;
+
+                  }
+                }
+              }
+
+              .article-text {
+                width: 75%;
+                padding: 5px 15px;
+
+                .text-title {
+                  font-size: 25px;
+                  color: $yellow;
+                  margin-bottom: 10px;
+                }
+                .text-paragraph {
+                  font-size: 15px;
+                  line-height: 30px;
+                }
+              }
+
+            }
+          }
+
+        }
+
+        .button-articles {
+          padding: 0 15px;
+          margin-top: 50px;
+
+          .button {
+            background-color: $burnt-sienna;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            color: $white;
+            cursor: $pointer;
+
+            &:hover {
+              background-color: $blue-marine;
+            }
+            .text-button-couses {
+              font-size: 20px;
+            }
+          }
         }
       }
-
     }
 
-    .button-causes {
-      background-color: $burnt-sienna;
-      padding: 70px;
-      display: flex;
-      justify-content: center;
-      color: $white;
-      cursor: $pointer;
-
-      &:hover {
-        background-color: $blue-marine;
-      }
-      .text-button-couses {
-        font-size: 20px;
-      }
-
-    }
   }
 
 
