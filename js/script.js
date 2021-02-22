@@ -3,10 +3,6 @@ el: '#app',
 data: {
   navBarList: [
     {
-      name: 'HOME',
-      link: ''
-    },
-    {
       name: 'MISSION',
       link: ''
     },

@@ -37,18 +37,23 @@
   font-size: 15px;
   padding-right: 70px;
   color: #fff;
-}
-#app .contentOne-nav .navbar .menu-text:hover {
-  color: #fec96b;
+  list-style: none;
+  display: flex;
 }
 #app .contentOne-nav .navbar .menu-text .home-text {
-  color: #fec96b;
+  color: #f76249;
+  margin-right: 70px;
+  cursor: pointer;
 }
 #app .contentOne-nav .navbar .menu-text .text {
   cursor: pointer;
+  margin-right: 70px;
+}
+#app .contentOne-nav .navbar .menu-text .text:hover {
+  color: #f76249;
 }
 #app .contentOne-nav .navbar .donate-button {
-  background-color: #fec96b;
+  background-color: #f76249;
   color: #fff;
   border: none;
   padding: 13px 29px;
@@ -90,16 +95,16 @@
   cursor: pointer;
 }
 #app .contentOne-jumbotron .buttons-jumbotron .button-mission:hover {
-  color: #fec96b;
-  border: 1px solid #fec96b;
+  color: #f76249;
+  border: 1px solid #f76249;
 }
 #app .contentOne-jumbotron .buttons-jumbotron .button-donateNow {
   margin: 0 15px;
   padding: 13px 29px;
   background: none;
-  color: #fec96b;
+  color: #f76249;
   font-size: 14px;
-  border: 1px solid #fec96b;
+  border: 1px solid #f76249;
   cursor: pointer;
 }
 #app .contentOne-jumbotron .buttons-jumbotron .button-donateNow:hover {
@@ -129,7 +134,7 @@
 }
 #app .contentTwo-first .every-moment-counts .line-separator {
   width: 22%;
-  border: 1px solid #fec96b;
+  border: 1px solid #f76249;
   margin-bottom: 20px;
 }
 #app .contentTwo-first .every-moment-counts .moment-text {
@@ -144,7 +149,7 @@
 #app .contentTwo-first .every-moment-counts .moment-button {
   padding: 13px 29px;
   color: #fff;
-  background-color: #fec96b;
+  background-color: #f76249;
   border: none;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
@@ -205,7 +210,7 @@
 }
 #app .contentTwo-second .ourValues-box-text .line-text .line {
   width: 100%;
-  border: 1px solid #fec96b;
+  border: 1px solid #f76249;
 }
 #app .contentTwo-second .ourValues-box-text .text-subtitle {
   font-size: 21px;
@@ -227,7 +232,7 @@
   padding: 10px;
 }
 #app .contentTwo-second .learn-more .box-icon {
-  color: #fec96b;
+  color: #f76249;
   font-size: 50px;
 }
 #app .contentTwo-second .learn-more .box-title {
@@ -244,7 +249,7 @@
   padding: 13px 29px;
   margin-top: 20px;
   color: #fff;
-  background-color: #fec96b;
+  background-color: #f76249;
   border: none;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
@@ -272,7 +277,7 @@
 }
 #app .contentTwo-third .container-causes .recent-causes .line-text .line {
   width: 100%;
-  border: 1px solid #fec96b;
+  border: 1px solid #f76249;
 }
 #app .contentTwo-third .container-causes .recent-causes .text-subtitle {
   font-size: 21px;
@@ -332,7 +337,7 @@
 }
 #app .contentTwo-fourth .latest-articles .line-text .line {
   width: 100%;
-  border: 1px solid #fec96b;
+  border: 1px solid #f76249;
 }
 #app .contentTwo-fourth .latest-articles .text-subtitle {
   font-size: 22px;
@@ -350,8 +355,26 @@
   border: 1px solid lightgrey;
   box-shadow: 0px 0px 8px -5px grey;
 }
+#app .contentTwo-fourth .container-articles .articles-box .principal-article .container-principal-article .principal-image {
+  position: relative;
+  cursor: pointer;
+}
 #app .contentTwo-fourth .container-articles .articles-box .principal-article .container-principal-article .principal-image .image {
   width: 100%;
+}
+#app .contentTwo-fourth .container-articles .articles-box .principal-article .container-principal-article .principal-image .over {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#app .contentTwo-fourth .container-articles .articles-box .principal-article .container-principal-article .principal-image:hover + .over {
+  width: 100%;
+  height: 100%;
+  background: red;
+  transition: width 2s;
+  display: block;
 }
 #app .contentTwo-fourth .container-articles .articles-box .principal-article .container-principal-article .principal-text {
   padding: 15px;
@@ -359,7 +382,7 @@
 }
 #app .contentTwo-fourth .container-articles .articles-box .principal-article .container-principal-article .principal-text .text-title {
   font-size: 20px;
-  color: #fec96b;
+  color: #f76249;
   margin: 10px 0;
 }
 #app .contentTwo-fourth .container-articles .articles-box .principal-article .container-principal-article .principal-text .text-paragraph {
@@ -401,7 +424,7 @@
 }
 #app .contentTwo-fourth .container-articles .articles-box .secondary-articles .article .article-text .text-title {
   font-size: 25px;
-  color: #fec96b;
+  color: #f76249;
   margin-bottom: 10px;
 }
 #app .contentTwo-fourth .container-articles .articles-box .secondary-articles .article .article-text .text-paragraph {
@@ -455,7 +478,7 @@
 }
 #app .contentTwo-fifths .container-changeLife .change-life .line-text .line {
   width: 100%;
-  border: 1px solid #fec96b;
+  border: 1px solid #f76249;
 }
 #app .contentTwo-fifths .container-changeLife .change-life .text-subtitle {
   font-size: 22px;
@@ -477,16 +500,16 @@
   cursor: pointer;
 }
 #app .contentTwo-fifths .container-changeLife .buttons-change-life .button-volunteer:hover {
-  color: #fec96b;
-  border: 1px solid #fec96b;
+  color: #f76249;
+  border: 1px solid #f76249;
 }
 #app .contentTwo-fifths .container-changeLife .buttons-change-life .button-donateNow {
   margin: 0 15px;
   padding: 13px 29px;
   background: none;
-  color: #fec96b;
+  color: #f76249;
   font-size: 14px;
-  border: 1px solid #fec96b;
+  border: 1px solid #f76249;
   cursor: pointer;
 }
 #app .contentTwo-fifths .container-changeLife .buttons-change-life .button-donateNow:hover {
@@ -540,7 +563,7 @@
   border-radius: 50%;
   background-color: white;
   font-size: 25px;
-  color: #fec96b;
+  color: #f76249;
   height: 40px;
   width: 40px;
   display: flex;
