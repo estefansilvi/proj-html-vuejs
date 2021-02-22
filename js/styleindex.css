@@ -1,0 +1,64 @@
+/* selettore{
+  proprietà: valore;
+} */
+body{
+  background-color: white;
+}
+
+.container{
+  padding: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.add a{
+  font-size: 40px;
+  color:#3481d0;
+  text-decoration: none;
+}
+.titolo{
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 50px 0px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.titolo a{
+  float: right;
+  font-size: 20px;
+  color:#3481d0;
+  text-decoration: none;
+}
+.Albums{
+  width: 100%;
+  height: 600px;
+}
+.album{
+  width: 16.6666%;
+  height: 180px;
+  float: left;
+  margin-bottom: 100px;
+  padding: 10px;
+}
+.album-image img{
+  width: 100%;
+  text-align: center;
+  padding: 2px;
+}
+
+.album-name, .album-number{
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.album-number{
+ color: grey;
+}
+
+footer{
+  border-top: 1px solid lightgrey;
+}

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -10,7 +11,7 @@
     <link rel="stylesheet" href="dist/app.css">
   </head>
   <body>
-    <div id="container">
+    <div id="app">
 
       <header class="contentOne">
 
@@ -19,25 +20,16 @@
             <img class="img-logo" src="img/avada-charity-logo-retina.png" alt="">
           </div>
           <div class="navbar">
-            <div class="menu-text">
-              <p class="home-text text">HOME</p>
-            </div>
-            <div class="menu-text">
-              <p class="text">MISSION</p>
-            </div>
-            <div class="menu-text">
-              <p class="text">CAUSES</p>
-            </div>
-            <div class="menu-text">
-              <p class="text">JOURNAL</p>
-            </div>
+            <ul class="menu-text">
+              <li class="home-text text"  v-for="items in navBarList">{{ items.name }}</li>
+            </ul>
             <button  class="donate-button"type="button" name="button">DONATE</button>
           </div>
         </nav>
 
         <div class="contentOne-jumbotron">
           <div class="title">
-            <h2>MAKE A DIFFERENT</h2>
+            <h2>MAKE A DIFFERENCE</h2>
           </div>
           <div class="subtitle">
             <h3>As long as poverty, injustice & inequality persist, none of us can truly rest</h3>
@@ -298,8 +290,37 @@
 
         </div>
 
-
       </main>
+
+      <footer class="contentThree">
+        <div class="footer-logo">
+          <img class="logo-image" src="img/avada-charity-mobile-logo-retina.png" alt="">
+        </div>
+        <div class="footer-info">
+          <div class="info">
+            <ul class="info-link">
+              <li><i class="far fa-copyright"></i> Copyright 2012 - 2021</li>
+              <li></li>
+              <li class="link" v-for="items in footerList">{{ items.name}}</li>
+            </ul>
+          </div>
+        </div>
+          <div class="social-list">
+            <div class="social">
+              <i class="fab fa-facebook-f"></i>
+            </div>
+            <div class="social">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <div class="social">
+              <i class="fab fa-twitter"></i>
+            </div>
+            <div class="social">
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+
+      </footer>
     </div>
 
 
